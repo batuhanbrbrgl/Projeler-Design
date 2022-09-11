@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #d60cde, #6a01fe);
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.header h1,
+h3 {
+    margin: 10px;
+}
+
+.header h3 {
+    color: #39014c;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.filter input {
+    border: 1px solid #1e3caf;
+    background-color: #091442;
+    border-radius: 20px;
+    width: 400px;
+    font-size: 24px;
+    outline: none;
+    padding: 0.5rem;
+    color: #ab03e4;
+    margin-bottom: 1.5rem;
+}
+
+.filter_categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+}
+
+.filter_categories li {
+    /* border: 1px solid #1e3caf; */
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    background-color: #130019;
+    color: rgb(187, 185, 185);
+    cursor: pointer;
+}
+
+.filter_categories li.active {
+    border: 2px solid #1e3caf;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    width: inherit;
+}
+
+.collections_item {
+    flex: 0 0 25%;
+    height: 400px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.collection_container {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collections_item .img1 {
+    border-radius: 20px;
+}
+
+.collections_item .collection_title {
+    font: size 18px;
+}
+
+.collections_item strong {
+    font: size 14px;
+}
+
+.collections_item .collections_price {
+    display: flex;
+    justify-content: space-between;
+}
