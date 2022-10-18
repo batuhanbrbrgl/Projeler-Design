@@ -5,6 +5,48 @@ document.querySelector('#menu-btn').onclick = () => {
     searchForm.classList.remove('active');
     cartItem.classList.remove('active');
 }
+let home = document.querySelector('.homes');
+let dunyakahveleri = document.querySelector('.dunyakahve');
+let sogukkahve = document.querySelector('.sogukkahve');
+let organik = document.querySelector('.organik');
+let frozen = document.querySelector('.frozenn');
+let freshdrink = document.querySelector('.freshdrinkk');
+let milkshake = document.querySelector('.milkshakee');
+let sogukicecek = document.querySelector('.sogukicecek');
+let cay = document.querySelector('.cayy');
+let tatli = document.querySelector('.tatli');
+
+
+home.onclick = function() {
+    navbar.classList.remove('active');
+}
+dunyakahveleri.onclick = function() {
+    navbar.classList.remove('active');
+}
+sogukkahve.onclick = function() {
+    navbar.classList.remove('active');
+}
+organik.onclick = function() {
+    navbar.classList.remove('active');
+}
+frozen.onclick = function() {
+    navbar.classList.remove('active');
+}
+freshdrink.onclick = function() {
+    navbar.classList.remove('active');
+}
+milkshake.onclick = function() {
+    navbar.classList.remove('active');
+}
+sogukicecek.onclick = function() {
+    navbar.classList.remove('active');
+}
+cay.onclick = function() {
+    navbar.classList.remove('active');
+}
+tatli.onclick = function() {
+    navbar.classList.remove('active');
+}
 
 let searchForm = document.querySelector('.search-form');
 
